@@ -6,17 +6,7 @@ const Intern = require("./lib/Intern");
 const fs = require("fs");
 teamArray=[];
 
-
-
-
-
-
 //Need an array for all the information that the team will need. 
-//Manger
-//
-
-
-
 
 //Runs the application: 
 function runApp() {
@@ -103,27 +93,27 @@ createTeam();
             inquirer.prompt([
                 {
                     type: 'input',
+                    name: "internName",
                     message: "What is your Intern's Name: ?",
-                    name: "name"
                 },
                 {
                     type: 'input',
+                    name: "internId",
                     message: "What is your Intern's ID number? ",
-                    name: "id"
                 },
                 {
                     type: 'input',
+                    name: "internEmail",
                     message: "What is your Intern's ID Email? ",
-                    name: "email"
                 },
                 {
                     type: 'input',
-                    message: "What is your Intern's ID Office Number? ",
-                    name: "school"
+                    name: "internSchool",
+                    message: "What is your Intern's School?",
                 },
                 
                 ]).then(answers => {
-                    const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.school);
+                    const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
                     teamArray.push(intern);
                     createTeam();
                   });
