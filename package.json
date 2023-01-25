@@ -1,0 +1,25 @@
+{
+  "name": "uta-bootcamp-challenge10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisZavala/UTA-bootcamp-challenge10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisZavala/UTA-bootcamp-challenge10/issues"
+  },
+  "homepage": "https://github.com/ChrisZavala/UTA-bootcamp-challenge10#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
