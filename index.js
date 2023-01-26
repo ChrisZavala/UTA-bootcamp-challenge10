@@ -17,6 +17,12 @@ const generateTeam = require("./src/template.js");
 
 //Runs the application: 
 function runApp() {
+    console.log(`
+    -----------------------------------------------------------------------------
+    Welcome to the Team Profile Generator! 
+    Answer the following questions to feed information to create your Team Profile.
+    -----------------------------------------------------------------------------
+    `);
     createTeam();
     //Creating My Team: 
     function createTeam() {
@@ -112,16 +118,16 @@ function runApp() {
             {
                 type: 'input',
                 name: "internEmail",
-                message: "What is your Intern's ID Email? "
+                message: "What is your Intern's Email? "
             },
             {
                 type: 'input',
                 name: "internSchool",
-                message: "What is your Intern's ID School? "
+                message: "What is your Intern's School? "
             },
 
         ]).then(answers => {
-            const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.school);
+            const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
             teamArray.push(intern);
             createTeam();
         });
@@ -131,7 +137,13 @@ function runApp() {
 
     //this is the end of the function. The main function
     function createHtml() {
-        fs.writeFile(outputPath, generateTeam(teamArray));
+        console.log(`
+    --------------------------------------------
+    Congrats! Your Team Profile has been created! 
+    Your profile is in the 'dist' folder. Enjoy!
+    --------------------------------------------
+    `)
+        fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8");
     }
 
 }//end of runApp func.
