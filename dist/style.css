@@ -4,6 +4,8 @@
 
 .employee-card {
     display: flex;
+    box-sizing: border-box;
+    width: 30%;
     box-shadow: 5px 5px 5px gray;
     margin: 1rem;
     border: none;
@@ -18,4 +20,20 @@ body{
 }
 .card-body{
     /* background-color:antiquewhite; */
+}
+.bugs{
+    /* background-color: red; */
+    background-image: url("../assets/images/creativity-in-planning.jpg");
+    background-position: left;
+    background-size: auto;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bolder;
+    
+}
+.text-white {
+    color: black;
+    text-shadow:2px 2px 4px gray;
 }
