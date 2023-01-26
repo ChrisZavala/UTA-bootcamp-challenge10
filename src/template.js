@@ -33,7 +33,7 @@ const generateTeam = team => {
           <ul class="list-group">
               <li class="list-group-item">ID: ${engineer.getId()}</li>
               <li class="list-group-item">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
-              <li class="list-group-item">GitHub: <a href="https://github.com/${engineer.getGithub()}" target="_blank" rel="noopener noreferrer">${engineer.getGithub()}</a></li>
+              <li class="list-group-item" >GitHub: <a href="https://github.com/${engineer.getGithub()}" target="_blank" rel="github">${engineer.getGithub()}</a></li>
           </ul>
       </div>
   </div>
@@ -90,6 +90,7 @@ const generateTeam = team => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>My Team Generator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">

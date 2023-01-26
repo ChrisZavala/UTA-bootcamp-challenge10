@@ -17,6 +17,10 @@
 
 body{
     background-color: gray;
+    /* background-image: url("../assets/images/paper.jpg"); */
+    background-size: cover;
+    background-position: center;
+
 }
 .card-body{
     /* background-color:antiquewhite; */
@@ -35,5 +39,5 @@ h1{
 }
 .text-white {
     color: black;
-    text-shadow:2px 2px 4px gray;
+    text-shadow:4px 4px 4px black;
 }
