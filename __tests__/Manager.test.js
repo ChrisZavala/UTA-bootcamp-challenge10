@@ -7,7 +7,7 @@ test('We are going to be testing the object using the constructor', () => {
 });
 
 test('We are testing getting getofficeNumber()', () => {
-    const employeeCreation = new Manager("Chris", 1, "chriszavala@email.com", "555-555-5555")
+    const employeeCreation = new Manager("_", 1, "_", "555-555-5555")
     expect(employeeCreation.getOfficeNumber()).toBe("555-555-5555");
 });
 

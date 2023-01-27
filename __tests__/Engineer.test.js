@@ -7,7 +7,7 @@ test('We are going to be testing the object using the constructor', () => {
 });
 
 test('We are testing getting Github()', () => {
-    const employeeCreation = new Engineer("Chris", 1, "chriszavala@email.com", "chriszavala")
+    const employeeCreation = new Engineer("_", 1, "_", "chriszavala")
     expect(employeeCreation.getGithub()).toBe("chriszavala");
 });
 

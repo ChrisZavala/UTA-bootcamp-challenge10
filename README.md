@@ -35,7 +35,9 @@ node index.js
 List your collaborators, if any, with links to their GitHub profiles.
 
 Karen Peazzoni: https://github.com/kpeazzoni \
-Josh Goeke: https://github.com/joshuagoeke 
+Josh Goeke: https://github.com/joshuagoeke \
+Myeonghun Jeong: https://github.com/mjtic \
+Rebecca Girndt: <https://github.com/Re-Gi> 
 
 Bootstrap: https://getbootstrap.com/ \
 NodeJS: https://nodejs.org/en/ \
@@ -89,8 +91,13 @@ Christopher Zavala:
 https://github.com/chriszavala 
 
 ## Test
-Run this application as much as possible to add the team that you want to work with. 
+Using Jest for all test. The testing files are located in the "__tests__" directory.  
 
 ## Video Link inserted here:
 
 ## Screenshots:
+![Alt text](./assets/images/1%20image.jpg)
+![Alt text](./assets/images/2%20image.jpg)
+![Alt text](./assets/images/3%20image.jpg)
+![Alt text](./assets/images/Website.jpg)
+
