@@ -97,6 +97,7 @@ https://github.com/chriszavala
 Using Jest for all test. The testing files are located in the "__tests__" directory.  
 
 ## Video Link inserted here:
+https://drive.google.com/file/d/1V5_c9-8y-E5vH2sCafGlsv7n5RICGT3M/view
 
 ## Screenshots:
 ![Alt text](./assets/images/1%20image.jpg)
