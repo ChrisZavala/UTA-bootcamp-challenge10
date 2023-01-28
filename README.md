@@ -15,7 +15,7 @@ A version of the Table of Contents will be included to show a screenshot descrip
   - [Acceptance Criteria](#acceptance-criteria)
   - [Features](#features)
   - [How To Contribute](#how-to-contribute)
-  - [Miscellaneous](#miscellaneous)
+  - [Author](#author)
   - [Test](#test)
 
 ## Installation 
@@ -48,8 +48,11 @@ Inquirer: https://www.npmjs.com/package/inquirer
   
 ## License 
 \
-MIT License rights are used for this open source project. 
 [![Generic badge](https://img.shields.io/badge/License-MIT&ensp;License-purple.svg)](https://choosealicense.com/licenses/mit-license/.)
+\
+MIT License rights are used for this open source project. 
+
+
 
 ## User Story
 
@@ -81,12 +84,12 @@ THEN I exit the application, and the HTML is generated
 ```
  
 ## Features
-This application is using 'Node' and the 'Inquirer 8.2.4' npm modules for creating of the 'README.md' file. The feature that this project challenge has is the abilty to create is the that your are able to seperate your team members by catagory. Either defined by Manager, Engineer, or Intern. 
+This application is using 'Node' and the 'Inquirer 8.2.4' npm modules for creating of the 'My Team' html. The feature that this project challenge has is the abilty to create is the that your are able to seperate your team members by catagory. Either defined by Manager, Engineer, or Intern. 
 
 ## How to Contribute
 You can contribute to the project by email me at: frappejcat@gmail.com 
 
-## Miscellaneous 
+## Author 
 Christopher Zavala:
 https://github.com/chriszavala 
 
