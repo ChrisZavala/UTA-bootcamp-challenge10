@@ -134,9 +134,6 @@ function runApp() {
       createTeam();
     });
   }
-
-
-
   //this is the end of the function. The main function
   function createHtml() {
     console.log(`
@@ -146,7 +143,6 @@ function runApp() {
   --------------------------------------------
   `)
     fs.writeFileSync(outputPath, generateTeam(teamArray))
-
   }
   createTeam();
 }//end of runApp func.
